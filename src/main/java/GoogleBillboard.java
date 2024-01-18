@@ -7,7 +7,7 @@ public class GoogleBillboard {
 		for(int i=0; i<e.length()-11; i++){
       			double some = Double.parseDouble(e.substring(i,i+11));
       			if(isPrime(some)==true){
-        			System.out.println("Answer:"+some);
+        			System.out.println(some);
         			break;
       			}
     		}
