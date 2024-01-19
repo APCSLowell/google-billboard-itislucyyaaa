@@ -6,7 +6,7 @@ public class GoogleBillboard {
 		//System.out.println("Not the right string, tests will fail!");
 		for(int i=0; i<e.length()-11; i++){
       			double some = Double.parseDouble(e.substring(i,i+11));
-      			if(isPrime(some)==true){
+      			if(isPrime(some)){
         			System.out.println(some);
         			break;
       			}
@@ -15,7 +15,7 @@ public class GoogleBillboard {
 	
 
 	//Finish this function
-	public boolean isPrime(double dNum){
+	public static boolean isPrime(double dNum){
 		if(dNum<2){
       			return false;
   		}
